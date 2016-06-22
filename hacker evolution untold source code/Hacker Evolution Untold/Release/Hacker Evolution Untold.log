@@ -1,0 +1,66 @@
+﻿Build started 8/13/2014 7:49:32 PM.
+     1>Project "C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\Hacker Evolution Untold.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Release\Hacker Evolution Untold.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W0 /WX- /O2 /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bshAudioDirectX.cpp bshAudioPlaylist.cpp bshInput.cpp exoUtil.cpp HackerEvolution.cpp HackerEvolutionDefines.cpp HackerEvolutionUntold_Defines.cpp he_dummy.cpp heCommandEngine.cpp heEngine.cpp heGameLevel.cpp heGameWindow.cpp heKeyStack.cpp heLog.cpp hePlayerInfo.cpp heSystem.cpp heutGameLanguage.cpp moduleRender_DirectX.cpp StdAfx.cpp
+         bshAudioDirectX.cpp
+         bshAudioPlaylist.cpp
+         bshInput.cpp
+         exoUtil.cpp
+         HackerEvolution.cpp
+         HackerEvolutionDefines.cpp
+         HackerEvolutionUntold_Defines.cpp
+         he_dummy.cpp
+         heCommandEngine.cpp
+         heEngine.cpp
+         heGameLevel.cpp
+         heGameWindow.cpp
+         heKeyStack.cpp
+         heLog.cpp
+         hePlayerInfo.cpp
+         heSystem.cpp
+         heutGameLanguage.cpp
+         moduleRender_DirectX.cpp
+         StdAfx.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Release\HackerEvolutionUntold.res" HackerEvolutionUntold.rc 
+       Link:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\gamerelease - internal\Hacker Evolution Untold.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Hacker Evolution Untold.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\gamerelease - internal\Hacker Evolution Untold.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\gamerelease - internal\Hacker Evolution Untold.lib" /MACHINE:X86 Release\HackerEvolutionUntold.res
+         Release\bshAudioDirectX.obj
+         Release\bshAudioPlaylist.obj
+         Release\bshInput.obj
+         Release\exoUtil.obj
+         Release\HackerEvolution.obj
+         Release\HackerEvolutionDefines.obj
+         Release\HackerEvolutionUntold_Defines.obj
+         Release\he_dummy.obj
+         Release\heCommandEngine.obj
+         Release\heEngine.obj
+         Release\heGameLevel.obj
+         Release\heGameWindow.obj
+         Release\heKeyStack.obj
+         Release\heLog.obj
+         Release\hePlayerInfo.obj
+         Release\heSystem.obj
+         Release\heutGameLanguage.obj
+         Release\moduleRender_DirectX.obj
+         Release\StdAfx.obj
+         "contrib-libSDL\lib\x86\SDL2.lib"
+         "contrib-libSDL\lib\x86\SDL2main.lib"
+         "contrib-sdlimage\lib\x86\SDL2_image.lib"
+         "contrib-SDLmixer\lib\x86\SDL2_mixer.lib"
+         Generating code
+         Finished generating code
+         Hacker Evolution Untold.vcxproj -> C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\..\..\gamerelease - internal\Hacker Evolution Untold.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\gamerelease - internal\Hacker Evolution Untold.exe;#1" /manifest "Release\Hacker Evolution Untold.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Release\Hacker Evolution Untold.unsuccessfulbuild".
+         Touching "Release\Hacker Evolution Untold.lastbuildstate".
+     1>Done Building Project "C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\Hacker Evolution Untold.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.97

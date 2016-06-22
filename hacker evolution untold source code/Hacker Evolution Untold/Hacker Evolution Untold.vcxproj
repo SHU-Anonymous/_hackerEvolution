@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2041808F-1778-499C-ACF2-563DB0675526}</ProjectGuid>
+    <RootNamespace>HackerEvolutionUntold</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.40219.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">..\..\hacker evolution untold</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">..\..\gamerelease - internal</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" />
+    <CodeAnalysisRuleSet Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">AllRules.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRules Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <CodeAnalysisRuleAssemblies Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" />
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-SDLmixer\include;C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-sdlimage\include;C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-libSDL\include;C:\- com.exosyphenstudios\xgamefolder %28clean%29 - Hacker Evolution Untold\dev - sourcecode\Hacker Evolution Untold\dx-headers;$(IncludePath)</IncludePath>
+    <IncludePath Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-SDLmixer\include;C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-sdlimage\include;C:\com.exosyphenstudios.shared\game - Hacker Evolution Untold\sourcecode - HackerEvolutionUntold2014\Hacker Evolution Untold\contrib-libSDL\include;C:\- com.exosyphenstudios\xgamefolder %28clean%29 - Hacker Evolution Untold\dev - sourcecode\Hacker Evolution Untold\dx-headers;$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_WIN32_WINNT;WINVER=0x5000;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <AssemblerOutput>
+      </AssemblerOutput>
+      <WarningLevel>Level1</WarningLevel>
+    </ClCompile>
+    <Link>
+      <IgnoreSpecificDefaultLibraries>libci.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <StackReserveSize>1024</StackReserveSize>
+      <TargetMachine>MachineX86</TargetMachine>
+      <UACExecutionLevel>AsInvoker</UACExecutionLevel>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>TurnOffAllWarnings</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="bshAudioDirectX.cpp" />
+    <ClCompile Include="bshAudioPlaylist.cpp" />
+    <ClCompile Include="bshInput.cpp" />
+    <ClCompile Include="exoUtil.cpp" />
+    <ClCompile Include="HackerEvolution.cpp" />
+    <ClCompile Include="HackerEvolutionDefines.cpp" />
+    <ClCompile Include="HackerEvolutionUntold_Defines.cpp" />
+    <ClCompile Include="he_dummy.cpp" />
+    <ClCompile Include="heCommandEngine.cpp" />
+    <ClCompile Include="heEngine.cpp" />
+    <ClCompile Include="heGameLevel.cpp" />
+    <ClCompile Include="heGameWindow.cpp" />
+    <ClCompile Include="heKeyStack.cpp" />
+    <ClCompile Include="heLog.cpp" />
+    <ClCompile Include="hePlayerInfo.cpp" />
+    <ClCompile Include="heSystem.cpp" />
+    <ClCompile Include="heutGameLanguage.cpp" />
+    <ClCompile Include="moduleRender_DirectX.cpp" />
+    <ClCompile Include="StdAfx.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bshAudioDirectX.h" />
+    <ClInclude Include="bshAudioPlaylist.h" />
+    <ClInclude Include="bshInput.h" />
+    <ClInclude Include="contrib-libSDL\include\begin_code.h" />
+    <ClInclude Include="contrib-libSDL\include\close_code.h" />
+    <ClInclude Include="exoUtil.h" />
+    <ClInclude Include="HackerEvolution.h" />
+    <ClInclude Include="HackerEvolutionDefines.h" />
+    <ClInclude Include="HackerEvolutionUntold_Defines.h" />
+    <ClInclude Include="heCommandEngine.h" />
+    <ClInclude Include="heEngine.h" />
+    <ClInclude Include="heGameLevel.h" />
+    <ClInclude Include="heGameWindow.h" />
+    <ClInclude Include="heKeyStack.h" />
+    <ClInclude Include="heLog.h" />
+    <ClInclude Include="hePlayerInfo.h" />
+    <ClInclude Include="heSystem.h" />
+    <ClInclude Include="heutGameLanguage.h" />
+    <ClInclude Include="moduleRender.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="StdAfx.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HackerEvolution.ICO" />
+    <None Include="SMALL.ICO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="HackerEvolutionUntold.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="contrib-libSDL\lib\x86\SDL2.lib" />
+    <Library Include="contrib-libSDL\lib\x86\SDL2main.lib" />
+    <Library Include="contrib-sdlimage\lib\x86\SDL2_image.lib" />
+    <Library Include="contrib-SDLmixer\lib\x86\SDL2_mixer.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

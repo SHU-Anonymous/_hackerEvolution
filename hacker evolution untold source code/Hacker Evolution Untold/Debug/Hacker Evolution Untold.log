@@ -1,0 +1,74 @@
+﻿Build started 5/8/2015 7:04:28 PM.
+     1>Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution untold source code\Hacker Evolution Untold\Hacker Evolution Untold.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\Hacker Evolution Untold.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W1 /WX- /O2 /Oy- /GL /D WIN32 /D _DEBUG /D _WINDOWS /D _WIN32_WINNT /D WINVER=0x5000 /D _MBCS /Gm /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt bshAudioDirectX.cpp bshAudioPlaylist.cpp bshInput.cpp exoUtil.cpp HackerEvolution.cpp HackerEvolutionDefines.cpp HackerEvolutionUntold_Defines.cpp he_dummy.cpp heCommandEngine.cpp heEngine.cpp heGameLevel.cpp heGameWindow.cpp heKeyStack.cpp heLog.cpp hePlayerInfo.cpp heSystem.cpp heutGameLanguage.cpp moduleRender_DirectX.cpp StdAfx.cpp
+         StdAfx.cpp
+         moduleRender_DirectX.cpp
+         heutGameLanguage.cpp
+         heSystem.cpp
+         hePlayerInfo.cpp
+         heLog.cpp
+         heKeyStack.cpp
+         heGameWindow.cpp
+         heGameLevel.cpp
+         heEngine.cpp
+         heCommandEngine.cpp
+         he_dummy.cpp
+         HackerEvolutionUntold_Defines.cpp
+         HackerEvolutionDefines.cpp
+         HackerEvolution.cpp
+         exoUtil.cpp
+         bshInput.cpp
+         bshAudioPlaylist.cpp
+         bshAudioDirectX.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\HackerEvolutionUntold.res" HackerEvolutionUntold.rc 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hacker Evolution Untold.exe.embed.manifest.res" "Debug\Hacker Evolution Untold_manifest.rc" 
+       Link:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\hacker evolution untold\Hacker Evolution Untold.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:libci.lib /MANIFEST /ManifestFile:"Debug\Hacker Evolution Untold.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution untold\Hacker Evolution Untold.pdb" /SUBSYSTEM:CONSOLE /STACK:"1024" /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\hacker evolution untold\Hacker Evolution Untold.lib" /MACHINE:X86 Debug\HackerEvolutionUntold.res
+         "Debug\Hacker Evolution Untold.exe.embed.manifest.res"
+         Debug\bshAudioDirectX.obj
+         Debug\bshAudioPlaylist.obj
+         Debug\bshInput.obj
+         Debug\exoUtil.obj
+         Debug\HackerEvolution.obj
+         Debug\HackerEvolutionDefines.obj
+         Debug\HackerEvolutionUntold_Defines.obj
+         Debug\he_dummy.obj
+         Debug\heCommandEngine.obj
+         Debug\heEngine.obj
+         Debug\heGameLevel.obj
+         Debug\heGameWindow.obj
+         Debug\heKeyStack.obj
+         Debug\heLog.obj
+         Debug\hePlayerInfo.obj
+         Debug\heSystem.obj
+         Debug\heutGameLanguage.obj
+         Debug\moduleRender_DirectX.obj
+         Debug\StdAfx.obj
+         "contrib-libSDL\lib\x86\SDL2.lib"
+         "contrib-libSDL\lib\x86\SDL2main.lib"
+         "contrib-sdlimage\lib\x86\SDL2_image.lib"
+         "contrib-SDLmixer\lib\x86\SDL2_mixer.lib"
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/LTCG' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Hacker Evolution Untold.exe.embed.manifest" /manifest "Debug\Hacker Evolution Untold.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Hacker Evolution Untold.vcxproj -> c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution untold source code\Hacker Evolution Untold\..\..\hacker evolution untold\Hacker Evolution Untold.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hacker Evolution Untold.unsuccessfulbuild".
+         Touching "Debug\Hacker Evolution Untold.lastbuildstate".
+     1>Done Building Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution untold source code\Hacker Evolution Untold\Hacker Evolution Untold.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.54

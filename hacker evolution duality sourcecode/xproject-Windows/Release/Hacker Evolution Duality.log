@@ -1,0 +1,64 @@
+﻿Build started 12/8/2014 2:57:03 PM.
+     1>Project "C:\FOLDER.exosyphenstudios.HackerEvolutionDuality2014\work files - sourcecode\xproject-Windows\Hacker Evolution Duality.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Hacker Evolution Duality.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt "..\addon - sdl2_gfx\src\SDL2_framerate.c" "..\addon - sdl2_gfx\src\SDL2_gfxPrimitives.c" "..\addon - sdl2_gfx\src\SDL2_imageFilter.c" "..\addon - sdl2_gfx\src\SDL2_rotozoom.c"
+         SDL2_framerate.c
+         SDL2_gfxPrimitives.c
+         SDL2_imageFilter.c
+         SDL2_rotozoom.c
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\generic - src\HackerEvolutionDualityDefines.cpp" "..\generic - src\HackerEvolutionDualityUtil.cpp" "..\generic - src\hedCommandConsole.cpp" "..\generic - src\hedGameAchievements.cpp" "..\generic - src\hedGameEngine-ClassInterfaceManager.cpp" "..\generic - src\hedGameEngine-ClassServer.cpp" "..\generic - src\hedGameEngine-ClassTextWindow.cpp" "..\generic - src\hedGameEngine-Game.cpp" "..\generic - src\hedGameEngine-Menu.cpp" "..\generic - src\hedGameEngine.cpp" "..\generic - src\hedGameLanguage.cpp" "..\generic - src\hedGameLevel.cpp" "..\generic - src\hedGameSettings.cpp" "..\generic - src\hedGameWindow.cpp" "..\generic - src\hedPlayerProfile.cpp" "..\generic - src\hedSteamAchievements.cpp" "..\windows - src\hedGraphicsImage.cpp" "..\windows - src\hedRendererOpenGL.cpp" "..\windows - src\hedSound.cpp" "..\windows - src\hedSystem.cpp" "..\windows - src\inet.cpp" sys_main.cpp
+         HackerEvolutionDualityDefines.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         HackerEvolutionDualityUtil.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedCommandConsole.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameAchievements.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine-ClassInterfaceManager.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine-ClassServer.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine-ClassTextWindow.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine-Game.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine-Menu.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameEngine.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameLanguage.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameLevel.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameSettings.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGameWindow.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedPlayerProfile.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedSteamAchievements.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedGraphicsImage.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\windows - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedRendererOpenGL.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\windows - src\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedSound.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         hedSystem.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\generic - inc\HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+         Compiling...
+         inet.cpp
+     1>..\windows - src\inet.cpp(20): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>..\windows - src\inet.cpp(60): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+         sys_main.cpp
+     1>c:\folder.exosyphenstudios.hackerevolutionduality2014\work files - sourcecode\xproject-windows\../generic - inc/HackerEvolutionDualityDefines.h(42): fatal error C1083: Cannot open include file: 'SDL2_gfxPrimitives.h': No such file or directory
+     1>Done Building Project "C:\FOLDER.exosyphenstudios.HackerEvolutionDuality2014\work files - sourcecode\xproject-Windows\Hacker Evolution Duality.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:07.14

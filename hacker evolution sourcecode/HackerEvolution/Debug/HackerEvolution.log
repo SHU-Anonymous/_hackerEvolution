@@ -1,0 +1,59 @@
+﻿Build started 5/8/2015 6:59:57 PM.
+     1>Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution sourcecode\HackerEvolution\HackerEvolution.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\HackerEvolution.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W0 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\bshAudioDirectX.cpp ..\bshAudioPlaylist.cpp ..\bshInput.cpp ..\exoUtil.cpp ..\HackerEvolution.cpp ..\HackerEvolutionDefines.cpp ..\heCommandEngine.cpp ..\heEngine.cpp ..\heGameLevel.cpp ..\heGameWindow.cpp ..\heKeyStack.cpp ..\heLog.cpp ..\hePlayerInfo.cpp ..\heSystem.cpp ..\moduleRender_DirectX.cpp
+         moduleRender_DirectX.cpp
+         heSystem.cpp
+         hePlayerInfo.cpp
+         heLog.cpp
+         heKeyStack.cpp
+         heGameWindow.cpp
+         heGameLevel.cpp
+         heEngine.cpp
+         heCommandEngine.cpp
+         HackerEvolutionDefines.cpp
+         HackerEvolution.cpp
+         exoUtil.cpp
+         bshInput.cpp
+         bshAudioPlaylist.cpp
+         bshAudioDirectX.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\HackerEvolution.res" HackerEvolution.rc 
+       Link:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\hacker evolution\HackerEvolution.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\HackerEvolution.exe.intermediate.manifest" /MANIFESTUAC:"level='requireAdministrator' uiAccess='false'" /DEBUG /PDB:"c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution\HackerEvolution.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\hacker evolution\HackerEvolution.lib" /MACHINE:X86 Debug\HackerEvolution.res
+         Debug\bshAudioDirectX.obj
+         Debug\bshAudioPlaylist.obj
+         Debug\bshInput.obj
+         Debug\exoUtil.obj
+         Debug\HackerEvolution.obj
+         Debug\HackerEvolutionDefines.obj
+         Debug\heCommandEngine.obj
+         Debug\heEngine.obj
+         Debug\heGameLevel.obj
+         Debug\heGameWindow.obj
+         Debug\heKeyStack.obj
+         Debug\heLog.obj
+         Debug\hePlayerInfo.obj
+         Debug\heSystem.obj
+         Debug\moduleRender_DirectX.obj
+         "..\contrib-libSDL\lib\x86\SDL2.lib"
+         "..\contrib-libSDL\lib\x86\SDL2main.lib"
+         "..\contrib-sdlimage\lib\x86\SDL2_image.lib"
+         "..\contrib-SDLmixer\lib\x86\SDL2_mixer.lib"
+     1>bshAudioDirectX.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         HackerEvolution.vcxproj -> c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution sourcecode\HackerEvolution\..\..\hacker evolution\HackerEvolution.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\hacker evolution\HackerEvolution.exe;#1" /manifest Debug\HackerEvolution.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\HackerEvolution.unsuccessfulbuild".
+         Touching "Debug\HackerEvolution.lastbuildstate".
+     1>Done Building Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution sourcecode\HackerEvolution\HackerEvolution.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.94

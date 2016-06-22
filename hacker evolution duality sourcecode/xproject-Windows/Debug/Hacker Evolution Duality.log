@@ -1,0 +1,86 @@
+﻿Build started 5/8/2015 7:11:27 PM.
+     1>Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution duality sourcecode\xproject-Windows\Hacker Evolution Duality.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(299,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>InitializeBuildStatus:
+         Creating "Debug\Hacker Evolution Duality.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W1 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt "..\generic - src\HackerEvolutionDualityDefines.cpp" "..\generic - src\HackerEvolutionDualityUtil.cpp" "..\generic - src\hedCommandConsole.cpp" "..\generic - src\hedGameAchievements.cpp" "..\generic - src\hedGameEngine-ClassInterfaceManager.cpp" "..\generic - src\hedGameEngine-ClassServer.cpp" "..\generic - src\hedGameEngine-ClassTextWindow.cpp" "..\generic - src\hedGameEngine-Game.cpp" "..\generic - src\hedGameEngine-Menu.cpp" "..\generic - src\hedGameEngine.cpp" "..\generic - src\hedGameLanguage.cpp" "..\generic - src\hedGameLevel.cpp" "..\generic - src\hedGameSettings.cpp" "..\generic - src\hedGameWindow.cpp" "..\generic - src\hedPlayerProfile.cpp" "..\generic - src\hedSteamAchievements.cpp" "..\windows - src\hedGraphicsImage.cpp" "..\windows - src\hedRendererOpenGL.cpp" "..\windows - src\hedSound.cpp" "..\windows - src\hedSystem.cpp" "..\windows - src\inet.cpp" sys_main.cpp
+         sys_main.cpp
+         inet.cpp
+         hedSystem.cpp
+         hedSound.cpp
+         hedRendererOpenGL.cpp
+         hedGraphicsImage.cpp
+         hedSteamAchievements.cpp
+         hedPlayerProfile.cpp
+         hedGameWindow.cpp
+         hedGameSettings.cpp
+         hedGameLevel.cpp
+         hedGameLanguage.cpp
+         hedGameEngine.cpp
+         hedGameEngine-Menu.cpp
+         hedGameEngine-Game.cpp
+         hedGameEngine-ClassTextWindow.cpp
+         hedGameEngine-ClassServer.cpp
+         hedGameEngine-ClassInterfaceManager.cpp
+         hedGameAchievements.cpp
+         hedCommandConsole.cpp
+         Generating Code...
+         Compiling...
+         HackerEvolutionDualityUtil.cpp
+         HackerEvolutionDualityDefines.cpp
+         Generating Code...
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Debug\Hacker Evolution Duality1.res" "Hacker Evolution Duality1.rc" 
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\Hacker Evolution Duality.exe.embed.manifest.res" "Debug\Hacker Evolution Duality_manifest.rc" 
+       Link:
+         C:\Program Files (exosyphen)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\hacker evolution duality\Hacker Evolution Duality.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Hacker Evolution Duality.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution duality\Hacker Evolution Duality.pdb" /ASSEMBLYDEBUG /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\hacker evolution duality\Hacker Evolution Duality.lib" /MACHINE:X86 /PROFILE "Debug\Hacker Evolution Duality1.res"
+         "Debug\Hacker Evolution Duality.exe.embed.manifest.res"
+         Debug\HackerEvolutionDualityDefines.obj
+         Debug\HackerEvolutionDualityUtil.obj
+         Debug\hedCommandConsole.obj
+         Debug\hedGameAchievements.obj
+         "Debug\hedGameEngine-ClassInterfaceManager.obj"
+         "Debug\hedGameEngine-ClassServer.obj"
+         "Debug\hedGameEngine-ClassTextWindow.obj"
+         "Debug\hedGameEngine-Game.obj"
+         "Debug\hedGameEngine-Menu.obj"
+         Debug\hedGameEngine.obj
+         Debug\hedGameLanguage.obj
+         Debug\hedGameLevel.obj
+         Debug\hedGameSettings.obj
+         Debug\hedGameWindow.obj
+         Debug\hedPlayerProfile.obj
+         Debug\hedSteamAchievements.obj
+         Debug\hedGraphicsImage.obj
+         Debug\hedRendererOpenGL.obj
+         Debug\hedSound.obj
+         Debug\hedSystem.obj
+         Debug\inet.obj
+         Debug\sys_main.obj
+         "..\windows - lib\steam_api.lib"
+         "..\windows - lib\WININET.LIB"
+         "..\windows - lib\WINMM.LIB"
+         "lib-SDL\SDL2.lib"
+         "lib-SDL\SDL2main.lib"
+         "lib-SDL\SDL2test.lib"
+         "lib-SDL\SDL2_image.lib"
+         "lib-SDL\SDL2_mixer.lib" /STACK:4194304 /HEAP:4194304 
+     1>LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+     1>HackerEvolutionDualityDefines.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\Hacker Evolution Duality.exe.embed.manifest" /manifest "Debug\Hacker Evolution Duality.exe.intermediate.manifest"
+         All outputs are up-to-date.
+       LinkEmbedManifest:
+         All outputs are up-to-date.
+         Hacker Evolution Duality.vcxproj -> c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution duality sourcecode\xproject-Windows\..\..\hacker evolution duality\Hacker Evolution Duality.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\Hacker Evolution Duality.unsuccessfulbuild".
+         Touching "Debug\Hacker Evolution Duality.lastbuildstate".
+     1>Done Building Project "c:\ContentBuilder\content\00-HackerEvolutionSourceCode\hacker evolution duality sourcecode\xproject-Windows\Hacker Evolution Duality.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.54

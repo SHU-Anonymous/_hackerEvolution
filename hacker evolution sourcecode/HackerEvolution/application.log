@@ -1,0 +1,2 @@
+heLog::heLog() - log file opened.
+heLog::~heLog() - log file closed..

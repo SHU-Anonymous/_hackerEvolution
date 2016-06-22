@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="windows - src">
+      <UniqueIdentifier>{7aa30a34-dd36-4171-8d29-13c76d52eea3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic - inc">
+      <UniqueIdentifier>{6d6280d6-fb35-4ac7-90e4-ed32f86e3a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="windows - lib">
+      <UniqueIdentifier>{f1d8976c-d449-47f2-ab6b-4ae886c0219e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="generic - src">
+      <UniqueIdentifier>{aeb8f35a-af0d-4018-805f-c63546e07163}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sys_main.cpp" />
+    <ClCompile Include="..\generic - src\HackerEvolutionDualityDefines.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine-ClassServer.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine-Game.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine-Menu.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameWindow.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows - src\hedGraphicsImage.cpp">
+      <Filter>windows - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows - src\hedRendererOpenGL.cpp">
+      <Filter>windows - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows - src\hedSound.cpp">
+      <Filter>windows - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows - src\hedSystem.cpp">
+      <Filter>windows - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\HackerEvolutionDualityUtil.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine-ClassTextWindow.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameEngine-ClassInterfaceManager.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameLevel.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedCommandConsole.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameAchievements.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameLanguage.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedPlayerProfile.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedGameSettings.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\windows - src\inet.cpp">
+      <Filter>windows - src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\generic - src\hedSteamAchievements.cpp">
+      <Filter>generic - src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Hacker Evolution Duality1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="icon1.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="icon2.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="HackerEvolutionDuality-WindowsIcon.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource1.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\HackerEvolutionDualityDefines.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine-ClassServer.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine-Game.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine-Menu.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameWindow.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGraphicsImage.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedRendererOpenGL.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedSound.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedSystem.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\HackerEvolutionDualityUtil.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine-ClassTextWindow.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameEngine-ClassInterfaceManager.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameLevel.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedCommandConsole.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameAchievements.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameLanguage.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedGameSettings.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedPlayerProfile.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\windows - src\inet.h">
+      <Filter>windows - src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\generic - inc\hedSteamAchievements.h">
+      <Filter>generic - inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\windows - lib\WININET.LIB">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="..\windows - lib\WINMM.LIB">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="..\windows - lib\steam_api.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="lib-SDL\SDL2.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="lib-SDL\SDL2_image.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="lib-SDL\SDL2_mixer.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="lib-SDL\SDL2main.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+    <Library Include="lib-SDL\SDL2test.lib">
+      <Filter>windows - lib</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
